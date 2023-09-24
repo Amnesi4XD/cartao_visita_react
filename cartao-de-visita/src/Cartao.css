@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/public/starwars_background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .cartao {
+    background-color: rgba(255, 255, 255, 0.1); 
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .cartao img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+  }
+  
+  .cartao h1 {
+    font-size: 2rem; /* Tamanho da fonte aumentado */
+    margin: 0;
+  }
+  
+  .cartao p {
+    font-size: 1.2rem; /* Tamanho da fonte aumentado */
+    margin: 5px 0;
+  }
